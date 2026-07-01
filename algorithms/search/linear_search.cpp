@@ -13,7 +13,6 @@ int linearSearch(const std::vector<int>& A, int key) {
       return static_cast<int>(i);
     }
   }
-
   return -1;
 }
 }  // namespace
