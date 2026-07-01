@@ -3,6 +3,11 @@
 #include <vector>
 namespace {
 void insertionSort(std::vector<int>& A) {
+  // Insertion Sort: Builds a sorted array one element at a time. It begins by
+  // comparing the 2nd element with the 1st, swapping them if the 2nd is
+  // smaller. Subsequent elements are then compared backward against the sorted
+  // portion and inserted into their correct positions. Total passes: n-1
+
   // Worst-case:    O(n^2)
   // Average-case:  O(n^2)
   // Best-case:     O(n)

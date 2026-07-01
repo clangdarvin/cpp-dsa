@@ -1,4 +1,3 @@
-#include <ios>
 #include <iostream>
 #include <optional>
 #include <vector>
@@ -27,7 +26,7 @@ class Stack {
     return m_items.back();
   }
 
-  std::size_t size() const { return m_items.size(); }
+  [[nodiscard]] std::size_t size() const { return m_items.size(); }
   [[nodiscard]] bool isEmpty() const { return m_items.empty(); }
 
  private:

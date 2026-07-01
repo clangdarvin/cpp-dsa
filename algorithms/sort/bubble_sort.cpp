@@ -3,6 +3,10 @@
 #include <vector>
 namespace {
 void bubbleSort(std::vector<int>& A) {
+  // Bubble Sort: The simplest, but highly inefficient, sorting algorithm. It
+  // repeatedly compares and swaps adjacent elements if they are in the wrong
+  // order.
+
   // Worst-case:    O(n^2)
   // Average-case:  O(n^2)
   // Best-case:     O(n)
